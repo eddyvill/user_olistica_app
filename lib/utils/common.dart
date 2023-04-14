@@ -191,10 +191,10 @@ List<LanguageDataModel> languageList() {
         flag: 'assets/flag/ic_de.png'),
     LanguageDataModel(
         id: 6,
-        name: 'Es',
+        name: 'Español',
         languageCode: 'es',
         fullLanguageCode: 'es-ES',
-        flag: 'assets/flag/ic_de.png'),
+        flag: 'assets/flag/ic_es.jpg'),
   ];
 }
 
