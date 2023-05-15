@@ -6,7 +6,7 @@ const APP_NAME_TAG_LINE = 'On-Demand Home Services App';
 const DEFAULT_LANGUAGE = 'es';
 
 const DOMAIN_URL = '';
-const BASE_URL = 'https://olistica.app/services/api/';
+const BASE_URL = 'https://olistica.app/olisystem/api/';
 
 /// You can change this to your Provider App package name
 /// This will be used in Registered As Partner in Sign In Screen where your users can redirect to the Play/App Store for Provider App
@@ -18,7 +18,7 @@ const IOS_LINK_FOR_PARTNER =
 const IOS_LINK_FOR_USER =
     'https://apps.apple.com/us/app/handyman-service-user/id1591427211';
 
-var defaultPrimaryColor = Color(0xFF5F60B9);
+var defaultPrimaryColor = Color(0xFFF0355C2);
 const DASHBOARD_AUTO_SLIDER_SECOND = 5;
 
 const TERMS_CONDITION_URL = 'https://iqonic.design/terms-of-use/';

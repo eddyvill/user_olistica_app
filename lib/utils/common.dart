@@ -689,14 +689,14 @@ Widget get trailing {
 }
 
 void showNewUpdateDialog(BuildContext context) async {
-  showInDialog(
-    context,
-    contentPadding: EdgeInsets.zero,
-    barrierDismissible: !remoteConfigDataModel.isForceUpdate.validate(),
-    builder: (_) {
-      return NewUpdateDialog();
-    },
-  );
+  // showInDialog(
+  //   context,
+  //   contentPadding: EdgeInsets.zero,
+  //   barrierDismissible: !remoteConfigDataModel.isForceUpdate.validate(),
+  //   builder: (_) {
+  //     return NewUpdateDialog();
+  //   },
+  // );
 }
 
 Future<void> showForceUpdateDialog(BuildContext context) async {
